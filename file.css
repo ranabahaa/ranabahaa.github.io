@@ -1,0 +1,759 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+}
+.home{
+    height: 650px;
+    background-image: url(images/cover.jpg);
+    position: relative;
+    width: 100%;
+
+}
+
+.nav{
+     width: 100%;
+    margin: 0 auto 0 auto;
+    height: 70px;
+    background-color: rgb(26, 26, 26) !important;
+    position: fixed;
+    z-index: 2;
+    
+}
+.nav-item{
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0px 22px 0px 22px ;
+
+}
+.nav .coder{
+    margin-right: 28%;
+    padding-left: 15px;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav img{
+    padding-left: 210px;
+    width: 280px;
+    height: 70px;
+    
+}
+.overlay{
+    width: 100%;
+    background-color: rgba(196, 45, 50, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+   
+}
+.middle{
+    padding-top: 200px;
+    
+}
+.middle h1{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.middle h3{
+    font-weight: 600;
+    font-size: 22px
+}
+.button{
+    background-color: rgba(196, 45, 50, 0.1);
+    border-radius: 0px;
+    border: 2px solid #fff;
+    margin-top: 15px;
+    margin-left: 0;
+}
+.button:hover{
+    background-color: #fff;
+}
+.button p{
+    padding: 0;
+    margin: 0;
+}
+.button:hover p{
+    color: rgb(196, 45, 50);
+}
+
+
+/*end of the first div*/
+.secondiv{
+    margin-top: 40px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.secondiv img{
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+}
+.rightdiv h1{
+    font-weight: bold;
+    font-size: 30px;
+    color: #444444;
+}
+.secondiv p,i{
+    color: #777777;
+}
+.except{
+    color: #444444 !important;
+    font-weight: bold;
+    font-size: 17px;
+}
+.ftitle{
+    font-weight: bold;
+    font-size: 34px;
+    color: #444444;
+}
+.secondiv i{
+    border: 1px solid #aaa;
+    font-size: 20px;
+    margin: 17px 5px 0px 5px;
+}
+.ok{
+     padding: 10px;
+}
+.face{
+    padding: 10px 15px 10px 15px;
+}
+.plus{
+     padding: 10px 8px 10px 8px;
+}
+.secondiv i:hover{
+    color: #fff;
+    background-color: rgb(220, 40, 40);
+    cursor: pointer;
+}
+/*end of second part*/
+
+.both{
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.div1{
+    float: left;
+}
+.div1 h1{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.div1 p{
+    color: #777777;
+}
+.div2{
+    float: right;
+    width: 50%;
+    margin-top: 35px;
+}
+
+.div2 p{
+    color: #777777;
+    
+}
+.progress{
+    height: 12px;
+    margin-left: 20px;
+    background-color: lightgrey;
+}
+.progress-bar{
+    background-color: rgb(236, 50, 55);
+}
+.div2 .words{
+    margin-bottom: 0px ;
+}
+.myservices{
+    border: 0px;
+     transition-duration: 1s;
+
+}
+.myservices:hover{
+    background-color: rgb(210, 60, 70);
+}
+/*end of third part*/
+.backg{
+    background-color: rgb(245, 240, 239);
+}
+.totaldivs{
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.one{
+    width: 32%;
+    background-color: #fff;
+    padding: 25px;
+    float: left;
+}
+.one p{
+    color: #777;
+}
+.one h4{
+    font-size: 20px;
+    color: #444444;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    transition-duration: 1s;
+}
+.one i{
+    background-color: rgb(235, 235, 224);
+    padding: 13px;
+    font-size: 17px;
+    transition-duration: 1s;
+}
+.one:hover{
+    cursor: pointer;
+}
+.one:hover i{
+    color: #fff;
+    background-color: rgb(236, 50, 55);
+}
+.one:hover h4{
+    color: rgb(236, 50, 55);
+}
+ 
+
+.two{
+    width: 32%;
+    background-color: #fff;
+    padding: 25px;
+    float: left;
+    margin-left:2%;
+}
+.two p{
+    color: #777;
+}
+.two h4{
+    font-size: 20px;
+    color: #444444;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    transition-duration: 1s;
+}
+.two i{
+    background-color: rgb(235, 235, 224);
+    padding: 13px;
+    font-size: 17px;
+    transition-duration: 1s;
+}
+.two:hover{
+    cursor: pointer;
+}
+.two:hover i{
+    color: #fff;
+    background-color: rgb(236, 50, 55);
+}
+.two:hover h4{
+    color: rgb(236, 50, 55);
+}
+
+.three{
+    width: 32%;
+    background-color: #fff;
+    padding: 25px;
+    float: left;
+    margin-left:2%;
+}
+.three p{
+    color: #777;
+}
+.three h4{
+    font-size: 20px;
+    color: #444444;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    transition-duration: 1s;
+}
+.three i{
+    background-color: rgb(235, 235, 224);
+    padding: 13px;
+    font-size: 17px;
+    transition-duration: 1s;
+}
+.three:hover{
+    cursor: pointer;
+}
+.three:hover i{
+    color: #fff;
+    background-color: rgb(236, 50, 55);
+}
+.three:hover h4{
+    color: rgb(236, 50, 55);
+}
+ 
+.check{
+    text-align: center;
+}
+.check2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border:0px;
+    padding: 10px 20px;
+    transition-duration: 1s;
+}
+ /*the end of the fourth part*/
+.numbg{
+    padding-bottom: 60px;
+    background-image: url(images/countercover2.jpg);
+    background-attachment: fixed;
+    width: 100%;
+}
+.nums{
+    
+    padding-top: 60px;
+}
+.num1{
+    padding: 15px 75px;
+    border: 1px solid #444444;
+    text-align: center;
+}
+.num1 i{
+    font-size: 25px;
+}
+/*end of fifth part*/
+
+.six{
+    padding-bottom: 40px;
+    background-color: rgb(245, 245, 239);
+    
+}
+
+.links a{
+    color: #444444;
+    text-decoration-line: none;
+    font-weight: bold;
+    margin: 0px 1px;
+    border: 1px solid #44444444;
+    padding: 10px 20px;
+}
+.total p{
+    color: #777;
+}
+.total{
+    width: 100%;
+    padding-top: 50px;
+}
+.pics{
+    margin-top: 40px;
+}
+.pic1{
+    width: 30%;
+    position: relative;
+    float:left;
+    margin-right: 20px;
+    
+}
+.pics i{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    
+    
+}
+.white{
+    width: 100%;
+}
+.white h4{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.pic1:hover i{
+    background-color: rgb(236, 50, 55);
+}
+.pic1 i:hover{
+    cursor: pointer;
+}
+
+.photo{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    background-image: url(images/parachute.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.pic2{
+    width: 30%;
+    position: relative;
+    float:left;
+    
+}
+.pics i{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    
+    
+}
+.pic2:hover i{
+    background-color: rgb(236, 50, 55);
+}
+.pic2 i:hover{
+    cursor: pointer;
+}
+
+.photo2{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    background-image: url(images/road.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.pic3{
+    width: 30%;
+    position: relative; 
+    float: left;
+    margin-left: 20px;
+}
+.pics i{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    
+    
+}
+
+.pic3:hover i{
+    background-color: rgb(236, 50, 55);
+}
+.pic3 i:hover{
+    cursor: pointer;
+}
+
+.photo3{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    background-image: url(images/chair.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.pic4{
+    width: 30%;
+    position: relative;
+    float:left;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.pics2 i{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    
+    
+}
+.pic4:hover i{
+    background-color: rgb(236, 50, 55);
+}
+.pic4 i:hover{
+    cursor: pointer;
+}
+
+.photo4{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    background-image: url(images/cabine.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.pic5{
+    width: 30%;
+    position: relative;
+    float:left;
+    margin-top: 30px;
+    
+}
+.pics2 i{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    
+    
+}
+.pic5:hover i{
+    background-color: rgb(236, 50, 55);
+}
+.pic5 i:hover{
+    cursor: pointer;
+}
+
+.photo5{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    background-image: url(images/lap.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.pic6{
+    width: 30%;
+    position: relative; 
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.pics2 i{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    
+    
+}
+.pic6:hover i{
+    background-color: rgb(236, 50, 55);
+}
+.pic6 i:hover{
+    cursor: pointer;
+}
+
+.photo6{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    background-image: url(images/sunbuilding.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.pic7{
+    width: 30%;
+    position: relative;
+    float:left;
+    margin-right: 20px;
+    margin-top: 30px;
+    
+}
+.pics3 i{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    
+    
+}
+
+.pic7:hover i{
+    background-color: rgb(236, 50, 55);
+}
+.pic7 i:hover{
+    cursor: pointer;
+}
+
+.photo7{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    background-image: url(images/lapandchair.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.pic8{
+    width: 30%;
+    position: relative;
+    float:left;
+     margin-top: 30px;
+    
+}
+.pics3 i{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    
+    
+}
+
+.pic8:hover i{
+    background-color: rgb(236, 50, 55);
+}
+.pic8 i:hover{
+    cursor: pointer;
+}
+
+.photo8{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    background-image: url(images/rainyroad.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.pic9{
+    width: 30%;
+    position: relative; 
+    float: left;
+    margin-left: 20px;
+     margin-top: 30px;
+}
+.pics3 i{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    
+    
+}
+.pic9:hover i{
+    background-color: rgb(236, 50, 55);
+}
+.pic9 i:hover{
+    cursor: pointer;
+}
+
+.photo9{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    background-image: url(images/fromup.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.clear{
+    clear: both;
+}
+.getin{
+    margin: 50px auto 0px auto;
+    padding: 10px 20px;
+}
+.row a{
+    text-decoration-line:none;
+    transition-duration: 1s;
+}
+/*end of seventh part*/
+
+
+.work2{
+    background-image: url(images/client-testimonial.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+}
+.first{
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+.first img{
+    border: 5px solid rgb(236, 50, 55);
+    border-radius: 50%;
+}
+.second{
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+.second img{
+    border: 5px solid rgb(236, 50, 55);
+    border-radius: 50%;
+}
+.lastleft{
+    width: 50%;
+    float: left;
+}
+.lastleft p{
+    color: #777;
+}
+.lastright{
+    width: 50%;
+    float: left;
+    padding: 150px 0px;
+    margin-top: 40px;
+}
+.ok2{
+     padding: 10px;
+    border:1px solid #44444444;
+}
+.face2{
+    padding: 10px 15px 10px 15px;
+    border:1px solid #44444444;
+}
+.plus2{
+     padding: 10px 8px 10px 8px;
+    border:1px solid #44444444;
+}
+/* THE END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
